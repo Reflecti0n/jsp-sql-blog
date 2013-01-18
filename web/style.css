@@ -1,0 +1,163 @@
+* {margin: 0; padding: 0; }
+img {border: 0;} 
+ul {list-style: none;}
+a {text-decoration: none;}
+
+body {
+    width: 980px;
+    margin: 0 auto;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color:#666666;
+    background: #FFFFFF;
+}
+
+/* Nagłówek */
+header {
+    height: 90px;
+    margin: 20px 0;
+    padding-top: 30px;
+    text-align: center;
+    background: #F6F6F6;
+}
+
+/* Menu główne */
+#menuUp {
+    height: 40px;
+    margin: 20px 0;
+    background: #FFFFFF;
+}
+
+#menuUp li {
+    float: left;
+}
+
+#menuUp a {
+    height: 28px;
+    width: 120px;
+    padding-top: 12px;
+    display: block;
+    color: black;
+    font-size: 9pt;
+    font-weight: bold;
+    text-align: center;
+    background: #FFFFFF;
+}
+
+#menuUp a:hover {
+    text-decoration: underline;
+}
+
+#mainContent {
+    height: 600px;
+    margin: 20px 0;
+    clear: both;
+    background: #FFFFFF;
+}
+
+#bar {
+/*    height: 600px;*/
+    width: 200px;
+    float: left;
+/*    background: #ccc;*/
+}
+
+#loginPanel {
+/*    height: 100px;*/
+    width: 200px;
+    clear: both;
+    background: #FFFFFF;
+}
+
+#loginPanel p, #loginPanel a {
+    padding: 3px 0;
+    color: #666666;
+    font-size: 9pt;
+    font-weight: bold;
+    text-align: center;
+}
+
+#loginPanel a:hover {
+    text-decoration: underline;
+}
+
+#reserved {
+/*    height: 100px;*/
+    width: 200px;
+    margin: 20px 0;
+    color: #1f1f1f;
+    font-size: 9pt;
+    font-weight: bold;
+    background: #FFFFFF;
+}
+
+#reserved td {
+    padding: 3px 0;
+}
+
+/* Menu lewe - kategorie samochodów */
+#menuLeft {
+    height: 250px;
+    width: 200px;
+    margin: 20px 0;
+    background: #FFFFFF;
+}
+
+#menuLeft a {
+    height: 15px;
+    width: 195px;
+    padding: 5px 0 0 5px;
+    display: block;
+    color: #1f1f1f;
+    font-size: 9pt;
+    font-weight: bold;
+    border-bottom: 1px solid #999;
+}
+
+#menuLeft a:hover {
+    padding-left: 20px;
+}
+
+/* Główna zawartość strony */
+#content {
+    height: 570px;
+    width: 730px;
+    padding: 15px;
+    float: right;
+    color: #1f1f1f;
+    background: #FFFFFF;
+}
+
+.register td {
+    padding: 5px 0;
+    color: #1f1f1f;
+    font-size: 9pt;
+    font-weight: bold;
+}
+
+.required {
+    color: #ff0000 !important;
+}
+
+/* Informacja po jakieś pomyślnie zakończonej akcji */
+.passed {
+    padding-top: 15px;
+    color: #009900;
+    font-size: 9pt;
+    font-weight: bold;
+}
+
+/* Informacja po jakieś nieudanie zakończonej akcji */
+.error {
+    padding-top: 15px;
+    color: #ff0000;
+    font-size: 9pt;
+    font-weight: bold;
+}
+
+
+
+/* Kolumny w kategoriach samochodów */
+.titles {
+    font-weight: bold;
+}
+
